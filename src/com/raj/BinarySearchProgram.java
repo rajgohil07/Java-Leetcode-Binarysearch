@@ -1,7 +1,5 @@
 package com.raj;
 
-import java.util.Scanner;
-
 public class BinarySearchProgram extends HelperClass {
     public static void main(String[] args) {
 
