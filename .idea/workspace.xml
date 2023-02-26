@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Transfer the main file in to the com.raj package.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have created the separate class to get the user input with the min max length validation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/HelperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/TakeInputForSingleArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.BubbleSort" />
+    <configuration name="HelperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.HelperClass" />
       <module name="Java-Binary-Search" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +67,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinarySearchProgram" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.HelperClass" />
       </list>
     </recent_temporary>
   </component>
@@ -100,12 +101,36 @@
       <option name="project" value="LOCAL" />
       <updated>1677437452042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Taken the input from the user and sort the array using the inheritance technique.">
+      <created>1677438075730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677438075730</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed the unnecessary break statement label.">
+      <created>1677438187147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677438187147</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Have created the separate class to get the user input with the min max length validation.">
+      <created>1677438775358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677438775358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Have added the bubble sort method to sort the array." />
     <MESSAGE value="Transfer the main file in to the com.raj package." />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer the main file in to the com.raj package." />
+    <MESSAGE value="Taken the input from the user and sort the array using the inheritance technique." />
+    <MESSAGE value="Removed the unnecessary break statement label." />
+    <MESSAGE value="Have created the separate class to get the user input with the min max length validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have created the separate class to get the user input with the min max length validation." />
   </component>
 </project>
