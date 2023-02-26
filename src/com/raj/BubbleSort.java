@@ -3,10 +3,8 @@ package com.raj;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
-    }
 
-    private static void sortWithBubbleSort(int[] arr) {
+    protected static void bubbleSorting(int[] arr) {
 
         // Getting the array length.
         int arrLength = arr.length;
@@ -47,6 +45,6 @@ public class BubbleSort {
         }
 
         // Print the sorted array with the bubble sort technique.
-        System.out.println("Sorted array: " + Arrays.toString(arr));
+        System.out.println("\n\nSorted array: " + Arrays.toString(arr));
     }
 }
