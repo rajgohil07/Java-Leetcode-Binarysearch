@@ -9,7 +9,6 @@ public class BubbleSort {
         // Getting the array length.
         int arrLength = arr.length;
 
-        outerForLoop:
         for (int loopCounter = 0; loopCounter < arrLength; loopCounter++) {
 
             // Taking the first and second index.
@@ -40,7 +39,7 @@ public class BubbleSort {
 
             // If there were no modifications where made then simply break the outer for loop.
             if (!isModificationMade) {
-                break outerForLoop;
+                break;
             }
         }
 
