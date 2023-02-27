@@ -9,8 +9,8 @@ Binary search technique: Binary search is a technique in which array always divi
 Best case: O(n) Where 1 is the contant value.
 Worse case: log(n) Where n is number of elements in the array.
 ---------------------------------------------------------------------------------------------
-How to find whether the array is ascending order or descending order.
+How to find whether the array is in ascending or descending order
 
-Ans: Compare the first and last element, if the first element value is greter then the last element value
-     then the array is sorted with descending order. And if the first element value is less then the
-     last element value then the array is sorted with ascending order.
+Ans: Compare the first and last element values. If the first element value is greater than the last element value, 
+then array is then sorted in descending order. Furthermore, if the first element value is less than the last element value, 
+then the array is sorted in ascending order. 
