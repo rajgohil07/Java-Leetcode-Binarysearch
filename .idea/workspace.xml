@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed: Unused import statement.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Removed the unused import statements.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677439835068</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the code for the binary search.">
+      <created>1677525317055</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677525317055</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Removed the unused import statements.">
+      <created>1677525350284</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677525350284</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +162,8 @@
     <MESSAGE value="Have created the separate class to get the user input with the min max length validation." />
     <MESSAGE value="Created the single class to Take the user input with the min max array length validation and Sort the provided array using the bubble sort technique." />
     <MESSAGE value="Fixed: Unused import statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed: Unused import statement." />
+    <MESSAGE value="Added the code for the binary search." />
+    <MESSAGE value="Removed the unused import statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the unused import statements." />
   </component>
 </project>

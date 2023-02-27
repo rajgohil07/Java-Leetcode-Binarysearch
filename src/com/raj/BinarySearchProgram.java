@@ -20,7 +20,7 @@ public class BinarySearchProgram extends HelperClass {
 
         // Taking the variables for the binary search.
         int start = 0;
-        int end = arr.length;
+        int end = arr.length - 1;
         int middle = start + (end - start) / 2; // it's similar to the (start+end)/2
 
         // Default index value of the target element.
