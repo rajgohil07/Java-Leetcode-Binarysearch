@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Removed the unused import statements.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/BinarySearchProgram.java" afterDir="false" />
-    </list>
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed: Display incorrect value for the target index." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677525350284</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed: Invalid end pointer value at the initialization.">
+      <created>1677525994879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677525994879</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed: Display incorrect value for the target index.">
+      <created>1677526145255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677526145255</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +175,8 @@
     <MESSAGE value="Fixed: Unused import statement." />
     <MESSAGE value="Added the code for the binary search." />
     <MESSAGE value="Removed the unused import statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the unused import statements." />
+    <MESSAGE value="Fixed: Invalid end pointer value at the initialization." />
+    <MESSAGE value="Fixed: Display incorrect value for the target index." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed: Display incorrect value for the target index." />
   </component>
 </project>
