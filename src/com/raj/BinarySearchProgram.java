@@ -31,7 +31,7 @@ public class BinarySearchProgram extends HelperClass {
 
             // If middle and target value is the same.
             if (target == arr[middle]) {
-                index = arr[middle];
+                index = middle;
                 break;
             }
 
@@ -50,7 +50,7 @@ public class BinarySearchProgram extends HelperClass {
 
         // if target value is found then the index value should be greater than the -1.
         if (index > -1) {
-            System.out.println(target + " value exist at the " + index + " index in the provided array.");
+            System.out.println(target + " value exist at the " + (index + 1) + " position in the provided array.");
         }
 
         // if target value is not founded then index value should be -1.
