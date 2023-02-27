@@ -1,6 +1,5 @@
 package com.raj;
 
-import java.lang.annotation.Target;
 import java.util.Scanner;
 
 public class BinarySearchProgram extends HelperClass {
