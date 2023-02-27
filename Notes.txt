@@ -1,0 +1,10 @@
+Linear search technique: Compare and find the value one by one in the linear form.
+
+Best case: O(1) Where 1 is the constant value.
+Worse case: O(n) Where n is number of elements in the array.
+------------------------------------------------------------------------------------------
+Binary search technique: Binary search is a technique in which array always divided at middle 
+				 and change the middle pointer according to the target value.
+
+Best case: O(n) Where 1 is the contant value.
+Worse case: log(n) Where n is number of elements in the array.
