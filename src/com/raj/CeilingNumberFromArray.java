@@ -7,23 +7,14 @@ public class CeilingNumberFromArray {
         int target = 4;
         int start = 0;
         int end = nums.length - 1;
-        int ans = 0;
 
         // Logic.
         while (start <= end) {
             int middle = start + (end - start) / 2;
             int middleValue = nums[middle];
             if (target == middleValue) {
-                ans = target;
+                start = middle;
                 break;
-            } else if (start == end) {
-                if (target < nums[start]) {
-                    ans = nums[start];
-                    break;
-                } else {
-                    ans = nums[start + 1];
-                    break;
-                }
             } else if (middleValue > target) {
                 end = middle - 1;
             } else {
@@ -32,6 +23,6 @@ public class CeilingNumberFromArray {
         }
 
         // Display the result.
-        System.out.println("Target value = " + ans);
+        System.out.println("Target value = " + nums[start]);
     }
 }

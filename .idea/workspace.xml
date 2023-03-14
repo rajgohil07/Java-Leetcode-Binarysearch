@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="File name changes.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/CeilingNumberFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestApproechToFindMiddle.txt" beforeDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Corrected the invalid logic the program to find the ceilling number.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/CeilingNumberFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/CeilingNumberFromArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678814049274</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Have implemented the program to find the ceilling number.">
+      <created>1678815376731</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678815376731</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Corrected the invalid logic the program to find the ceilling number.">
+      <created>1678815519821</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678815519821</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,7 +279,9 @@
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Have added the best approach to find the middle." />
     <MESSAGE value="File name changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="File name changes." />
+    <MESSAGE value="Have implemented the program to find the ceilling number." />
+    <MESSAGE value="Corrected the invalid logic the program to find the ceilling number." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected the invalid logic the program to find the ceilling number." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
