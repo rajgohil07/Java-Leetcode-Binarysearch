@@ -17,4 +17,8 @@ then the array is sorted in ascending order. 
 
 Tip: if you given the sorted array, Always try with the binary search, 95% of the time it will do the work.
 
-ceiling number: The ceiling function of a real number is the least integer number greater than or equal to the given number. In the case of 4.5, the integers greater than 4.5 are 5, 6, 7, 8, ….. The smallest of all is 5. Therefore, ⌈4.5⌉ = 5.
+Ceiling number: The ceiling function of a real number is the least integer number greater than or equal to the given number. In the case of 4.5, the integers greater than 4.5 are 5, 6, 7, 8, ….. The smallest of all is 5. Therefore, ⌈4.5⌉ = 5.
+
+Floor number: In mathematics and computer science, the floor function is the function that takes as input a real number x, and gives as output the greatest integer less than or equal to x, denoted ⌊x⌋ or floor(x). Similarly, the ceiling function maps x to the least integer greater than or equal to x, denoted ⌈x⌉ or ceil(x).[1]
+
+For example, ⌊2.4⌋ = 2, ⌊−2.4⌋ = −3, ⌈2.4⌉ = 3, and ⌈−2.4⌉ = −2.
