@@ -4,7 +4,7 @@ public class CeilingNumberFromArray {
     public static void main(String[] args) {
         // Initialization.
         int[] nums = new int[]{2, 3, 5, 9, 14, 16, 18};
-        int target = 15;
+        int target = 4;
         int start = 0;
         int end = nums.length - 1;
         int ans = 0;
@@ -17,8 +17,13 @@ public class CeilingNumberFromArray {
                 ans = target;
                 break;
             } else if (start == end) {
-                ans = nums[start + 1];
-                break;
+                if (target < nums[start]) {
+                    ans = nums[start];
+                    break;
+                } else {
+                    ans = nums[start + 1];
+                    break;
+                }
             } else if (middleValue > target) {
                 end = middle - 1;
             } else {
