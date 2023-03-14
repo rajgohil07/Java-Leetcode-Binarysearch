@@ -36,18 +36,24 @@ public class FindSmallestLetterGreaterThanTarget {
         // Initialization.
         char[] letters = new char[]{'c', 'f', 'j'};
         char target = 'a';
-        char ans = letters[0];
+        int ans = 0;
 
         // Logic.
         if (target < letters[letters.length - 1]) {
             ans = getSmallerLatterWhichGreaterThanTarget(letters, target);
         }
 
+        // Get next char index if the target element is same with ans index.
+        if (target == letters[ans]) {
+            ans = getNextCharIndex(letters, ans);
+        }
+
         // Display the answer.
-        System.out.println("The smallest letter which is greater than the target '" + target + "' is: '" + ans + "'");
+        System.out.println("The smallest letter which is greater than the target '" + target + "' is: '" + letters[ans] + "'");
     }
 
-    private static char getSmallerLatterWhichGreaterThanTarget(char[] letters, char target) {
+    // To find the required index.
+    private static int getSmallerLatterWhichGreaterThanTarget(char[] letters, char target) {
         int start = 0;
         int end = letters.length - 1;
         while (start <= end) {
@@ -55,9 +61,9 @@ public class FindSmallestLetterGreaterThanTarget {
             int middle = start + (end - start) / 2;
             char currentVal = letters[middle];
 
-            // if target and middle values are same.
+            // if target and middle values are same then return the middle index.
             if (currentVal == target) {
-                return letters[middle + 1];
+                return middle + 1;
             }
 
             // if middle value is greater than the target value.
@@ -71,7 +77,17 @@ public class FindSmallestLetterGreaterThanTarget {
             }
         }
 
-        // Return the start values means small values which is greater than the target value.
-        return letters[start];
+        // Return the start index means the smallest value index which is greater than the target value.
+        return start;
+    }
+
+    private static int getNextCharIndex(char[] letters, int index) {
+        char val = letters[index];
+        for (int i = index; i < letters.length; i++) {
+            if (val < letters[i]) {
+                return i;
+            }
+        }
+        return 0;
     }
 }
