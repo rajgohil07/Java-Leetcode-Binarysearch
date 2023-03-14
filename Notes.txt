@@ -16,3 +16,5 @@ then array is then sorted in descending order. Furthermore, if the first element
 then the array is sorted in ascending order. 
 
 Tip: if you given the sorted array, Always try with the binary search, 95% of the time it will do the work.
+
+ceiling number: The ceiling function of a real number is the least integer number greater than or equal to the given number. In the case of 4.5, the integers greater than 4.5 are 5, 6, 7, 8, ….. The smallest of all is 5. Therefore, ⌈4.5⌉ = 5.
