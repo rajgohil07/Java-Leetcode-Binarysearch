@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have added the notes for the binary and linear search technique.">
-      <change afterPath="$PROJECT_DIR$/Notes.txt" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/JAVA Practices/Multi-Dimension-Array"
   }
 }]]></component>
   <component name="RunManager" selected="Application.BinarySearchProgram">
@@ -178,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677527199716</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added solution to find whether the array is sorted in a descending order or ascending order">
+      <created>1677527496319</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677527496319</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order">
+      <created>1677527788124</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677527788124</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +210,8 @@
     <MESSAGE value="Fixed: Display incorrect value for the target index." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Have added the notes for the binary and linear search technique." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have added the notes for the binary and linear search technique." />
+    <MESSAGE value="Added solution to find whether the array is sorted in a descending order or ascending order" />
+    <MESSAGE value="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order" />
   </component>
 </project>

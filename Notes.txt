@@ -14,3 +14,5 @@ How to find whether the array is in ascending or descending order
 Ans: Compare the first and last element values. If the first element value is greater than the last element value, 
 then array is then sorted in descending order. Furthermore, if the first element value is less than the last element value, 
 then the array is sorted in ascending order. 
+
+Tip: if you given the sorted array, Always try with the binary search, 95% of the time it will do the work.
