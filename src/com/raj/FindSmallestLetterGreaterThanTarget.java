@@ -81,6 +81,7 @@ public class FindSmallestLetterGreaterThanTarget {
         return start;
     }
 
+    // Get the next char element because char may contain the same char values that's why.
     private static int getNextCharIndex(char[] letters, int index) {
         char val = letters[index];
         for (int i = index; i < letters.length; i++) {
