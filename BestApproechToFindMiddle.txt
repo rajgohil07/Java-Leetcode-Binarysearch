@@ -1,0 +1,13 @@
+middle = (start + end) / 2
+
+= (start / 2) + (end / 2) 
+
+= (start / 2) + (end / 2) + (start / 2) - (start / 2)     [Added (start / 2) and subtracted the same]
+
+= 2(start)/ 2  + (end / 2) - (start / 2)
+
+= start + (end / 2) - (start / 2)
+
+middle = start + (end - start) / 2
+
+Henced (start + end) / 2 = start + (end - start) / 2
