@@ -31,8 +31,8 @@ package com.raj;
 public class FindFirstAndLastPositionOfElementInSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = new int[]{5, 7, 7, 8, 8, 10};
-        int target = 8;
+        int[] nums = new int[]{2, 2};
+        int target = 2;
         int length = nums.length;
         int[] ans = new int[]{-1, -1};
         int start = 0;
@@ -50,11 +50,15 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 int middleValue = nums[middle];
                 // if value is found then move index left and right to get the start and end position of the array.
                 if (middleValue == target) {
+                    ans[0] = middle;
+                    ans[1] = middle;
                     // Find the end index for the target by moving right from the middle index.
                     for (int i = middle + 1; i < length; i++) {
                         if (nums[i] > target) {
                             ans[1] = i - 1;
                             break;
+                        } else if (i == length - 1) {
+                            ans[1] = i;
                         }
                     }
                     // Find the start index for the target by moving left from the middle index.
@@ -62,6 +66,8 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                         if (nums[i] < target) {
                             ans[0] = i + 1;
                             break;
+                        } else if (i == 0) {
+                            ans[0] = i;
                         }
                     }
                     break;
