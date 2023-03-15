@@ -30,6 +30,7 @@ package com.raj;
 
 public class FindFirstAndLastPositionOfElementInSortedArray {
     public static void main(String[] args) {
+        // Initialization.
         int[] nums = new int[]{5, 7, 7, 8, 8, 10};
         int target = 8;
         int length = nums.length;
@@ -37,6 +38,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         int start = 0;
         int end = length - 1;
 
+        // Manual checking if the array length is 1.
         if (length == 1) {
             if (nums[0] == target) {
                 ans[0] = 1;
@@ -46,13 +48,16 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
             while (start <= end) {
                 int middle = start + (end - start) / 2;
                 int middleValue = nums[middle];
+                // if value is found then move index left and right to get the start and end position of the array.
                 if (middleValue == target) {
+                    // Find the end index for the target by moving right from the middle index.
                     for (int i = middle + 1; i < length; i++) {
                         if (nums[i] > target) {
                             ans[1] = i - 1;
                             break;
                         }
                     }
+                    // Find the start index for the target by moving left from the middle index.
                     for (int i = middle - 1; i >= 0; i--) {
                         if (nums[i] < target) {
                             ans[0] = i + 1;
@@ -60,14 +65,19 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                         }
                     }
                     break;
-                } else if (middleValue > target) {
+                }
+                // if middle value is greater than the target value.
+                else if (middleValue > target) {
                     end = middle - 1;
-                } else {
+                }
+                // When the middle value is less than the target value.
+                else {
                     start = middle + 1;
                 }
             }
         }
 
+        // Display the result.
         System.out.println("Start position: " + ans[0] + " | End position: " + ans[1]);
     }
 }
