@@ -41,8 +41,8 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         // Manual checking if the array length is 1.
         if (length == 1) {
             if (nums[0] == target) {
-                ans[0] = 1;
-                ans[1] = 1;
+                ans[0] = 0;
+                ans[1] = 0;
             }
         } else if (length > 1) {
             while (start <= end) {
