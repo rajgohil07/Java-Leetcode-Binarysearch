@@ -37,7 +37,12 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         int start = 0;
         int end = length - 1;
 
-        if (length > 0) {
+        if (length == 1) {
+            if (nums[0] == target) {
+                ans[0] = 1;
+                ans[1] = 1;
+            }
+        } else if (length > 1) {
             while (start <= end) {
                 int middle = start + (end - start) / 2;
                 int middleValue = nums[middle];
