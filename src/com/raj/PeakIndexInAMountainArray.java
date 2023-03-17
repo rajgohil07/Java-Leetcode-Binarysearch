@@ -7,7 +7,7 @@ package com.raj;
 public class PeakIndexInAMountainArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] arr = {0, 10, 5, 2};
+        int[] arr = {3, 5, 3, 2, 0};
         int ans = 0;
         int start = 0;
         int end = arr.length - 1;
@@ -16,6 +16,11 @@ public class PeakIndexInAMountainArray {
         while (start <= end) {
             int middle = start + (end - start) / 2;
             int middleValue = arr[middle];
+
+            if (middle == 0) {
+                middle = middle + 1;
+                end = end + 1;
+            }
 
             if (middleValue > arr[middle - 1] && middleValue > arr[middle + 1]) {
                 ans = middle;
