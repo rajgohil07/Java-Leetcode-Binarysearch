@@ -71,6 +71,9 @@ public class FindPeakElementFromMultiplePeaks {
         }
 
         // Display the result.
-        return ans;
+        System.out.println("Representation:");
+        System.out.println("   " + arr[ans]);
+        System.out.println(arr[ans - 1] + "      " + arr[ans + 1]);
+        System.out.println("Mountain index of the array is: " + ans);
     }
 }
