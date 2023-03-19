@@ -44,28 +44,29 @@ public class FindPeakElementFromMultiplePeaks {
             } else {
                 ans = 0;
             }
-        }
-        while (start <= end) {
-            int middle = start + (end - start) / 2;
+        } else {
+            while (start <= end) {
+                int middle = start + (end - start) / 2;
 
             /*
              if middle value is set to 0 index then increment middle and index.
              Because it will throw error when we search for middle = 0
              Which is middle - 1 = -1, and -1 index does not exist.
              */
-            if (middle == 0) {
-                middle = middle + 1;
-                end = end + 1;
-            }
+                if (middle == 0) {
+                    middle = middle + 1;
+                    end = end + 1;
+                }
 
-            int middleValue = arr[middle];
-            if (middleValue > arr[middle - 1] && middleValue > arr[middle + 1]) {
-                ans = middle;
-                break;
-            } else if (middleValue > arr[middle - 1]) {
-                start = middle + 1;
-            } else {
-                end = middle - 1;
+                int middleValue = arr[middle];
+                if (middleValue > arr[middle - 1] && middleValue > arr[middle + 1]) {
+                    ans = middle;
+                    break;
+                } else if (middleValue > arr[middle - 1]) {
+                    start = middle + 1;
+                } else {
+                    end = middle - 1;
+                }
             }
         }
 
