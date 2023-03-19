@@ -39,7 +39,7 @@ public class FindPeakElementFromMultiplePeaks {
         if (end == 0) {
             ans = 0;
         } else if (end == 1) {
-            if (arr[end] > arr[end - 2]) {
+            if (arr[end] > arr[end - 1]) {
                 ans = 1;
             } else {
                 ans = 0;
@@ -71,9 +71,6 @@ public class FindPeakElementFromMultiplePeaks {
         }
 
         // Display the result.
-        System.out.println("Representation:");
-        System.out.println("   " + arr[ans]);
-        System.out.println(arr[ans - 1] + "      " + arr[ans + 1]);
-        System.out.println("Mountain index of the array is: " + ans);
+        return ans;
     }
 }
