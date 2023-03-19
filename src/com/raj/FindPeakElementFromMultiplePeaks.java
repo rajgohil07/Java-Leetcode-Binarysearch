@@ -30,7 +30,7 @@ package com.raj;
 public class FindPeakElementFromMultiplePeaks {
     public static void main(String[] args) {
         // Initialization.
-        int[] arr = {6, 5, 4, 3, 2, 3, 2};
+        int[] arr = {1, 2, 3};
         int ans = 0;
         int start = 0;
         int end = arr.length - 1;
@@ -60,6 +60,13 @@ public class FindPeakElementFromMultiplePeaks {
                         ans = 1;
                     }
                     break;
+                } else if (middle == arr.length - 1) {
+                    if (arr[middle] > arr[middle - 1]) {
+                        ans = middle;
+                    } else {
+                        ans = middle - 1;
+                    }
+                    break;
                 }
 
                 int middleValue = arr[middle];
@@ -79,6 +86,8 @@ public class FindPeakElementFromMultiplePeaks {
         System.out.println("   " + arr[ans]);
         if (ans == 0) {
             System.out.println("      " + arr[ans + 1]);
+        } else if (ans == arr.length - 1) {
+            System.out.println(arr[ans - 1] + "      ");
         } else {
             System.out.println(arr[ans - 1] + "      " + arr[ans + 1]);
         }

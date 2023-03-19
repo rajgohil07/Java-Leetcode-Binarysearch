@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Display the result in the program to find the peak index from multiple peaks.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed infinite while loop issue in the program to find the peak index from multiple peaks.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/FindPeakElementFromMultiplePeaks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindPeakElementFromMultiplePeaks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -375,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679216305694</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Fixed infinite while loop issue in the program to find the peak index from multiple peaks.">
+      <created>1679217300663</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679217300663</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed the unused import statements." />
     <MESSAGE value="Fixed: Invalid end pointer value at the initialization." />
     <MESSAGE value="Fixed: Display incorrect value for the target index." />
     <MESSAGE value="Have added the notes for the binary and linear search technique." />
@@ -415,7 +422,8 @@
     <MESSAGE value="Implemented else part in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Fixed the incorrect result in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Display the result in the program to find the peak index from multiple peaks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Display the result in the program to find the peak index from multiple peaks." />
+    <MESSAGE value="Fixed infinite while loop issue in the program to find the peak index from multiple peaks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed infinite while loop issue in the program to find the peak index from multiple peaks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
