@@ -30,7 +30,7 @@ package com.raj;
 public class FindPeakElementFromMultiplePeaks {
     public static void main(String[] args) {
         // Initialization.
-        int[] arr = {3, 5, 3, 2, 0};
+        int[] arr = {6, 5, 4, 3, 2, 3, 2};
         int ans = 0;
         int start = 0;
         int end = arr.length - 1;
@@ -54,8 +54,12 @@ public class FindPeakElementFromMultiplePeaks {
              Which is middle - 1 = -1, and -1 index does not exist.
              */
                 if (middle == 0) {
-                    middle = middle + 1;
-                    end = end + 1;
+                    if (arr[0] > arr[1]) {
+                        ans = 0;
+                    } else {
+                        ans = 1;
+                    }
+                    break;
                 }
 
                 int middleValue = arr[middle];
@@ -73,7 +77,11 @@ public class FindPeakElementFromMultiplePeaks {
         // Display the result.
         System.out.println("Representation:");
         System.out.println("   " + arr[ans]);
-        System.out.println(arr[ans - 1] + "      " + arr[ans + 1]);
+        if (ans == 0) {
+            System.out.println("      " + arr[ans + 1]);
+        } else {
+            System.out.println(arr[ans - 1] + "      " + arr[ans + 1]);
+        }
         System.out.println("Mountain index of the array is: " + ans);
     }
 }
