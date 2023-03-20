@@ -33,8 +33,8 @@ package com.raj;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {3, 4, 5, 6, 1, 2};
-        int target = 2;
+        int[] nums = {6, 7, 1, 2, 3, 4, 5};
+        int target = 6;
         int start = 0;
         int end = nums.length - 1;
         int ans = -1;
@@ -52,35 +52,9 @@ public class SearchInRotatedSortedArray {
                 ans = 0;
             }
         } else {
-            while (start <= end) {
-                int middle = start + (end - start) / 2;
-                if (middle == 0) {
-                    if (nums[0] > nums[1]) {
-                        midIndex = 0;
-                    } else {
-                        midIndex = 1;
-                    }
-                    break;
-                } else if (middle == nums.length - 1) {
-                    if (nums[nums.length - 1] > nums[nums.length - 2]) {
-                        midIndex = nums.length - 1;
-                    } else {
-                        midIndex = nums.length - 2;
-                    }
-                    break;
-                }
-                int middleValue = nums[middle];
-                if (middleValue > nums[middle + 1] && middleValue > nums[middle - 1]) {
-                    midIndex = middle;
-                    break;
-                } else if (middleValue < nums[middle + 1] && middleValue < nums[middle - 1]) {
-                    midIndex = middle - 1;
-                    break;
-                } else if (middleValue > nums[middle - 1]) {
-                    start = middle + 1;
-                } else {
-                    end = middle - 1;
-                }
+            midIndex = searchInMountainPattern(start, end, nums);
+            if (midIndex == -1) {
+                midIndex = searchInMountainPattern(0, nums.length / 2, nums);
             }
             System.out.println("Array can be split with the index = " + midIndex);
 
@@ -88,11 +62,16 @@ public class SearchInRotatedSortedArray {
              Binary search in the ascending order.
              Explanation: split the array into two from the midIndex so we can get the two ascending array.
              */
-            ans = binarySearchAscendingOrder(nums, 0, midIndex, target);
-            System.out.println("\nFirst array ascending order: " + "[" + 0 + "," + midIndex + "]");
-            System.out.println("Second array ascending order: " + "[" + (midIndex + 1) + "," + (nums.length - 1) + "]");
-            if (ans == -1) {
-                ans = binarySearchAscendingOrder(nums, midIndex + 1, nums.length - 1, target);
+            if (midIndex == -1) {
+                System.out.println("Array is already sorted in the descending order.");
+                ans = binarySearchAscendingOrder(nums, 0, nums.length - 1, target);
+            } else {
+                System.out.println("\nFirst array ascending order: " + "[" + 0 + "," + midIndex + "]");
+                System.out.println("Second array ascending order: " + "[" + (midIndex + 1) + "," + (nums.length - 1) + "]");
+                ans = binarySearchAscendingOrder(nums, 0, midIndex, target);
+                if (ans == -1) {
+                    ans = binarySearchAscendingOrder(nums, midIndex + 1, nums.length - 1, target);
+                }
             }
         }
 
@@ -122,4 +101,49 @@ public class SearchInRotatedSortedArray {
         }
         return targetIndex;
     }
+
+    private static int searchInMountainPattern(int start, int end, int[] nums) {
+        int midIndex = -1;
+        while (start <= end) {
+            int middle = start + (end - start) / 2;
+            if (middle == 0) {
+                if (nums[0] > nums[1]) {
+                    midIndex = 0;
+                }
+                break;
+            } else if (middle == nums.length - 1) {
+                if (nums[middle] < nums[middle - 1]) {
+                    midIndex = middle - 1;
+                }
+                break;
+            }
+            int middleValue = nums[middle];
+            if (middleValue > nums[middle + 1] && middleValue > nums[middle - 1]) {
+                midIndex = middle;
+                break;
+            } else if (middleValue < nums[middle + 1] && middleValue < nums[middle - 1]) {
+                midIndex = middle - 1;
+                break;
+            } else if (middleValue > nums[middle - 1]) {
+                start = middle + 1;
+            } else {
+                end = middle - 1;
+            }
+        }
+        return midIndex;
+    }
+
+//    private static int searchInAntiMountainPattern(int[] nums) {
+//        int midIndex = -1;
+//        int start = 0;
+//        int end = nums.length - 1;
+//        while (start <= end) {
+//            int middle=start+(end-start)/2;
+//            int middleValue=nums[middle];
+//            if(middleValue> nums[middle-1] && middleValue<nums[middle+1]){
+//                midIndex=middle;break;
+//            }else if(middleValue<mi)
+//        }
+//        return midIndex;
+//    }
 }

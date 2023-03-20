@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed the incorrect result to find the target in the ascending sorted array using the binary approach.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" afterDir="false" />
     </list>
@@ -472,11 +472,6 @@
           <url>file://$PROJECT_DIR$/src/com/raj/PeakIndexInAMountainArray.java</url>
           <line>38</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
