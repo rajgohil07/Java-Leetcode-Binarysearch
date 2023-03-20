@@ -33,8 +33,8 @@ package com.raj;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {6, 7, 1, 2, 3, 4, 5};
-        int target = 6;
+        int[] nums = {9, 1, 2, 3, 4, 5, 6, 7, 8};
+        int target = 9;
         int start = 0;
         int end = nums.length - 1;
         int ans = -1;
@@ -56,7 +56,6 @@ public class SearchInRotatedSortedArray {
             if (midIndex == -1) {
                 midIndex = searchInMountainPattern(0, nums.length / 2, nums);
             }
-            System.out.println("Array can be split with the index = " + midIndex);
 
             /*
              Binary search in the ascending order.
@@ -66,6 +65,7 @@ public class SearchInRotatedSortedArray {
                 System.out.println("Array is already sorted in the descending order.");
                 ans = binarySearchAscendingOrder(nums, 0, nums.length - 1, target);
             } else {
+                System.out.println("Array can be split with the index = " + midIndex);
                 System.out.println("\nFirst array ascending order: " + "[" + 0 + "," + midIndex + "]");
                 System.out.println("Second array ascending order: " + "[" + (midIndex + 1) + "," + (nums.length - 1) + "]");
                 ans = binarySearchAscendingOrder(nums, 0, midIndex, target);
