@@ -133,17 +133,4 @@ public class SearchInRotatedSortedArray {
         return midIndex;
     }
 
-//    private static int searchInAntiMountainPattern(int[] nums) {
-//        int midIndex = -1;
-//        int start = 0;
-//        int end = nums.length - 1;
-//        while (start <= end) {
-//            int middle=start+(end-start)/2;
-//            int middleValue=nums[middle];
-//            if(middleValue> nums[middle-1] && middleValue<nums[middle+1]){
-//                midIndex=middle;break;
-//            }else if(middleValue<mi)
-//        }
-//        return midIndex;
-//    }
 }
