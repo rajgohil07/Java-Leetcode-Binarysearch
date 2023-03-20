@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Updated the input value to find the target in the ascending sorted array using the binary approach." />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679296878841</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach.">
+      <created>1679298662487</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679298662487</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added solution to find whether the array is sorted in a descending order or ascending order" />
     <MESSAGE value="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order" />
     <MESSAGE value="Have added the tip in the notes." />
     <MESSAGE value="Have added defination of ceiling number." />
@@ -448,7 +457,8 @@
     <MESSAGE value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
+    <MESSAGE value="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,6 +472,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/PeakIndexInAMountainArray.java</url>
           <line>38</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
