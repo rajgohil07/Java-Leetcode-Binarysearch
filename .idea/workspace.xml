@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/SearchInRotatedSortedArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Updated the input value to find the target in the ascending sorted array using the binary approach." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -396,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679296783039</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="workspace.xml file changes.">
+      <created>1679296813921</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679296813921</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Updated the input value to find the target in the ascending sorted array using the binary approach.">
+      <created>1679296878841</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679296878841</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have added the notes for the binary and linear search technique." />
     <MESSAGE value="Added solution to find whether the array is sorted in a descending order or ascending order" />
     <MESSAGE value="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order" />
     <MESSAGE value="Have added the tip in the notes." />
@@ -421,7 +432,6 @@
     <MESSAGE value="Have implemented the program to find the ceilling number." />
     <MESSAGE value="Corrected the invalid logic the program to find the ceilling number." />
     <MESSAGE value="Have added the program to find the floor number with provided target from the array." />
-    <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Added the definition of floor numbers." />
     <MESSAGE value="Implemented the program to find the smallest letter which is greater than target." />
     <MESSAGE value="Added the comment to find the smallest letter which is greater than target." />
@@ -436,7 +446,9 @@
     <MESSAGE value="Fixed infinite while loop issue in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handled the situation if the peak array is in last element in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
+    <MESSAGE value="workspace.xml file changes." />
+    <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
