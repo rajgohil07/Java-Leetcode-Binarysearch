@@ -60,6 +60,7 @@ public class SearchInRotatedSortedArray {
                     } else {
                         midIndex = 1;
                     }
+                    break;
                 }
                 int middleValue = nums[middle];
                 if (middleValue > nums[middle + 1] && middleValue > nums[middle - 1]) {
