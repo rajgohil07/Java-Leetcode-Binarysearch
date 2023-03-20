@@ -43,7 +43,7 @@ public class SearchInRotatedSortedArray {
         // Logic.
         if (end == 0 && nums[0] == target) {
             ans = 0;
-        } else if (end <= 1) {
+        } else if (end == 1) {
             if (nums[1] == target) {
                 ans = 1;
             } else if (nums[0] == target) {
