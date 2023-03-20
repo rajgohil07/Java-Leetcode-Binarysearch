@@ -41,7 +41,9 @@ public class SearchInRotatedSortedArray {
         int midIndex = 0;
 
         // Logic.
-        if (end <= 1) {
+        if (end == 0 && nums[0] == target) {
+            ans = 0;
+        } else if (end <= 1) {
             if (nums[1] == target) {
                 ans = 1;
             } else if (nums[0] == target) {
