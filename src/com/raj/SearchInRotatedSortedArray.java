@@ -54,7 +54,6 @@ public class SearchInRotatedSortedArray {
         } else {
             midIndex = searchInMountainPattern(start, end, nums);
             if (midIndex == -1) {
-                System.out.println("Calling the second time\n\n\n");
                 midIndex = searchInAntiMountainPattern(0, nums.length / 2, nums);
             }
 
