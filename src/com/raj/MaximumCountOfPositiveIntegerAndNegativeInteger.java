@@ -26,10 +26,11 @@ package com.raj;
 
 public class MaximumCountOfPositiveIntegerAndNegativeInteger {
     public static void main(String[] args) {
-//        int[] nums = {-2, -1, -1, 1, 2};
-//        int[] nums = {-21, -13, -11};
-//        int[] nums = {2, 11, 111};
-        int[] nums = {-2, 0, 0, 0, 11, 111};
+        // Initialization.
+        // int[] nums = {-2, -1, -1, 1, 2};
+        // int[] nums = {-21, -13, -11};
+        // int[] nums = {2, 11, 111};
+        int[] nums = {-3, -2, -1, 0, 0, 1, 2};
         int start = 0;
         int end = nums.length - 1;
         int index = -1;
@@ -77,7 +78,7 @@ public class MaximumCountOfPositiveIntegerAndNegativeInteger {
             }
             for (int i = index; i >= 0; i--) {
                 if (nums[i] < 0) {
-                    negative = nums.length - 1;
+                    negative = i + 1;
                     break;
                 }
             }

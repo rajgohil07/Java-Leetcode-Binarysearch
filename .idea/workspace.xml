@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the negative value counts from the mxn matrix.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/MaximumCountOfPositiveIntegerAndNegativeInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the maximum number from the positive and negative numbers.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/MaximumCountOfPositiveIntegerAndNegativeInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/MaximumCountOfPositiveIntegerAndNegativeInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
