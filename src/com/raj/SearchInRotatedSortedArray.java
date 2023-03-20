@@ -33,7 +33,7 @@ package com.raj;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int[] nums = {1};
         int target = 0;
         int start = 0;
         int end = nums.length - 1;
@@ -41,8 +41,10 @@ public class SearchInRotatedSortedArray {
         int midIndex = 0;
 
         // Logic.
-        if (end == 0 && nums[0] == target) {
-            ans = 0;
+        if (end == 0) {
+            if (nums[0] == target) {
+                ans = 0;
+            }
         } else if (end == 1) {
             if (nums[1] == target) {
                 ans = 1;
