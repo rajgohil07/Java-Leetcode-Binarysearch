@@ -54,7 +54,8 @@ public class SearchInRotatedSortedArray {
         } else {
             midIndex = searchInMountainPattern(start, end, nums);
             if (midIndex == -1) {
-                midIndex = searchInMountainPattern(0, nums.length / 2, nums);
+                System.out.println("Calling the second time\n\n\n");
+                midIndex = searchInAntiMountainPattern(0, nums.length / 2, nums);
             }
 
             /*
@@ -132,5 +133,34 @@ public class SearchInRotatedSortedArray {
         }
         return midIndex;
     }
-
+    private static int searchInAntiMountainPattern(int start, int end, int[] nums) {
+        int midIndex = -1;
+        while (start <= end) {
+            int middle = start + (end - start) / 2;
+            if (middle == 0) {
+                if (nums[0] > nums[1]) {
+                    midIndex = 0;
+                }
+                break;
+            } else if (middle == nums.length - 1) {
+                if (nums[middle] < nums[middle - 1]) {
+                    midIndex = middle - 1;
+                }
+                break;
+            }
+            int middleValue = nums[middle];
+            if (middleValue > nums[middle + 1] && middleValue > nums[middle - 1]) {
+                midIndex = middle;
+                break;
+            } else if (middleValue < nums[middle + 1] && middleValue < nums[middle - 1]) {
+                midIndex = middle - 1;
+                break;
+            } else if (middleValue < nums[middle - 1]) {
+                start = middle + 1;
+            } else {
+                end = middle - 1;
+            }
+        }
+        return midIndex;
+    }
 }
