@@ -78,7 +78,7 @@ public class TheKWeakestRowsInMatrix {
         }
 
         // Display the number of 1s in the array.
-        System.out.println("Number of 1s in the array" + Arrays.toString(temp));
+        System.out.println("Number of 1s in the array: " + Arrays.toString(temp));
 
         // Make a copy of an array.
         temp1 = Arrays.copyOf(temp, temp.length);
@@ -97,7 +97,7 @@ public class TheKWeakestRowsInMatrix {
         }
 
         // Display the answer.
-        System.out.println("The weakest row in the matrix by the given k " + k + " is " + Arrays.toString(ans));
+        System.out.println("The weakest row in the matrix by the given k " + k + " is: " + Arrays.toString(ans));
     }
 
     private static int find1sInTheArray(int[] nums) {
