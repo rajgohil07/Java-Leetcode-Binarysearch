@@ -78,17 +78,22 @@ public class TheKWeakestRowsInMatrix {
         }
 
         // Display the number of 1s in the array.
-        System.out.println("temp = " + Arrays.toString(temp));
+        System.out.println("Number of 1s in the array" + Arrays.toString(temp));
 
-//        // Make a copy of an array.
-//        temp1 = Arrays.copyOf(temp, temp.length);
+        // Make a copy of an array.
+        temp1 = Arrays.copyOf(temp, temp.length);
 
         // Sort the array.
         Arrays.sort(temp);
 
         for (int i = 0; i < k; i++) {
-            int index = binarySearch(temp, temp[i]);
-            ans[i] = temp1[index];
+            for (int j = 0; i < temp1.length; j++) {
+                if (temp[i] == temp1[j]) {
+                    ans[i] = j;
+                    temp1[j] = Integer.MAX_VALUE;
+                    break;
+                }
+            }
         }
 
         // Display the answer.
@@ -128,22 +133,4 @@ public class TheKWeakestRowsInMatrix {
         return index;
     }
 
-    private static int binarySearch(int[] nums, int target) {
-        int start = 0;
-        int end = nums.length - 1;
-        int index = -1;
-        while (start <= end) {
-            int middle = start + (end - start) / 2;
-            int middleValue = nums[middle];
-            if (middleValue == target) {
-                index = target;
-                break;
-            } else if (middleValue > target) {
-                end = middle - 1;
-            } else {
-                start = middle + 1;
-            }
-        }
-        return index;
-    }
 }
