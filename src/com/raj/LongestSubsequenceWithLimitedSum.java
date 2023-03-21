@@ -73,11 +73,13 @@ public class LongestSubsequenceWithLimitedSum {
         }
         if (index == -1) {
             if (end != -1) {
-                index = end;
+                index = end + 1;
             } else {
                 index = 0;
             }
+        } else {
+            index++;
         }
-        return index + 1;
+        return index;
     }
 }
