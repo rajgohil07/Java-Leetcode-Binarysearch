@@ -59,13 +59,13 @@ public class TheKWeakestRowsInMatrix {
     public static void main(String[] args) {
         // initialization.
         int[][] mat = {
-                {1, 1, 0, 0, 0},
-                {1, 1, 1, 1, 0},
-                {1, 0, 0, 0, 0},
-                {1, 1, 0, 0, 0},
-                {1, 1, 1, 1, 1}
+                {1, 1, 1, 0, 0, 0, 0},
+                {1, 1, 1, 1, 1, 1, 0},
+                {0, 0, 0, 0, 0, 0, 0},
+                {1, 1, 1, 0, 0, 0, 0},
+                {1, 1, 1, 1, 1, 1, 1}
         };
-        int k = 3;
+        int k = 4;
         int[] temp = new int[mat.length];
         int[] temp1 = new int[mat.length];
         int[] ans = new int[k];
@@ -120,10 +120,14 @@ public class TheKWeakestRowsInMatrix {
         if (index == -1) {
             index = nums.length;
         } else {
-            for (int i = index - 1; i >= 0; i--) {
-                if (nums[i] == 1) {
-                    index = i + 1;
-                    break;
+            if (nums[0] != 1) {
+                index = -1;
+            } else {
+                for (int i = index - 1; i >= 0; i--) {
+                    if (nums[i] == 1) {
+                        index = i + 1;
+                        break;
+                    }
                 }
             }
             if (index == -1) {
