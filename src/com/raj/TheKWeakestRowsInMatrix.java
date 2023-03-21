@@ -100,6 +100,7 @@ public class TheKWeakestRowsInMatrix {
         System.out.println("The weakest row in the matrix by the given k " + k + " is: " + Arrays.toString(ans));
     }
 
+    // Find the count of 1s in the array.
     private static int find1sInTheArray(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
