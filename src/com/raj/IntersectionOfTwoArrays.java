@@ -33,18 +33,17 @@ public class IntersectionOfTwoArrays {
 
         // Logic.
         if (nums1.length > nums2.length) {
-            for (int i = 0; i < nums2.length; i++) {
-                int index = binarySearch(nums1, nums2[i]);
+            for (int i : nums2) {
+                int index = binarySearch(nums1, i);
                 if (index != -1) {
-                    ans.add(nums2[i]);
+                    ans.add(i);
                 }
-
             }
         } else {
-            for (int i = 0; i < nums1.length; i++) {
-                int index = binarySearch(nums2, nums1[i]);
+            for (int i : nums1) {
+                int index = binarySearch(nums2, i);
                 if (index != -1) {
-                    ans.add(nums1[i]);
+                    ans.add(i);
                 }
             }
         }
