@@ -20,6 +20,7 @@ Constraints:
 package com.raj;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -56,8 +57,14 @@ public class IntersectionOfTwoArrays {
         // Add the set list to the ans array list.
         ans.addAll(set);
 
+        int[] finalAnswer = new int[ans.size()];
+
+        for (int i = 0; i < finalAnswer.length; i++) {
+            finalAnswer[i] = ans.get(i);
+        }
+
         // Display the result.
-        System.out.println("Intersection of Two Arrays: " + ans);
+        System.out.println("Intersection of Two Arrays: " + Arrays.toString(finalAnswer));
     }
 
     // To perform the binary search and return the target index.

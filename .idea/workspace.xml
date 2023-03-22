@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the  Intersection of Two Arrays.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Use of enhanced for loop in the program to find the  Intersection of Two Arrays.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/IntersectionOfTwoArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,20 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00013" summary="workspace.xml file changes.">
-      <created>1677526430403</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1677526430403</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Have added the notes for the binary and linear search technique.">
-      <created>1677527199716</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1677527199716</updated>
     </task>
     <task id="LOCAL-00015" summary="Added solution to find whether the array is sorted in a descending order or ascending order">
       <created>1677527496319</created>
@@ -466,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679473006727</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Use of enhanced for loop in the program to find the  Intersection of Two Arrays.">
+      <created>1679473094106</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473094106</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Use of enhanced for loop in the program to find the  Intersection of Two Arrays.">
+      <created>1679473385273</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473385273</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Handled the situation when middle index is 0 the program to find the mountain index of the given array using the binary search approach." />
     <MESSAGE value="Implemented the program to find the peak index from multiple peaks." />
     <MESSAGE value="Implemented else part in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Fixed the incorrect result in the program to find the peak index from multiple peaks." />
@@ -506,7 +505,8 @@
     <MESSAGE value="Fixed the infinite issue in the program to find the last occurrence of the index." />
     <MESSAGE value="Fixed the incorrect answer in the program to find the last occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the  Intersection of Two Arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the  Intersection of Two Arrays." />
+    <MESSAGE value="Use of enhanced for loop in the program to find the  Intersection of Two Arrays." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of enhanced for loop in the program to find the  Intersection of Two Arrays." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
