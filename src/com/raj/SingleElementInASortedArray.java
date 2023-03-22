@@ -24,10 +24,12 @@ package com.raj;
 
 public class SingleElementInASortedArray {
     public static void main(String[] args) {
+        // Initialization.
         int[] nums = {1, 1, 2, 3, 3, 4, 4, 8, 8};
         int start = 0;
         int end = nums.length - 1;
 
+        // Logic.
         if (nums.length == 1) {
             start = nums[0];
         } else if (nums[0] != nums[1]) {
@@ -57,7 +59,8 @@ public class SingleElementInASortedArray {
                 }
             }
 
-            System.out.println("start = " + nums[start]);
+            // Display the result.
+            System.out.println("Single element in the provided array is: " + nums[start]);
         }
 
     }
