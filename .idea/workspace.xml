@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="workspace.xml file changes.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find two sum in the sorted array.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Have implemented the program to find the ceilling number.">
-      <created>1678815376731</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1678815376731</updated>
     </task>
     <task id="LOCAL-00023" summary="Corrected the invalid logic the program to find the ceilling number.">
       <created>1678815519821</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679511197258</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Have implemented the program to find two sum in the sorted array.">
+      <created>1679512463762</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1679512463762</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed infinite while loop issue in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handled the situation if the peak array is in last element in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
     <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
@@ -506,7 +505,8 @@
     <MESSAGE value="Have added the comments in the program to find the single element in the sorted array." />
     <MESSAGE value="Have assign the index instead of value in the program to find the single element in the sorted array." />
     <MESSAGE value="workspace.xml file changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file changes." />
+    <MESSAGE value="Have implemented the program to find two sum in the sorted array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find two sum in the sorted array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

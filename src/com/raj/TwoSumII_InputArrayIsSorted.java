@@ -43,12 +43,21 @@ public class TwoSumII_InputArrayIsSorted {
 
         //Logic.
         for (int i = 0; i < numbers.length; i++) {
-            int indexToFind = target - numbers[i];
-            int index = binarySearch(numbers, indexToFind);
+            int indexValueToFind = target - numbers[i];
+            int index = binarySearch(numbers, indexValueToFind);
             if (index != -1) {
                 ans[0] = i + 1;
                 ans[1] = index + 1;
                 break;
+            }
+        }
+
+        // Check if both index are same or not.
+        if (ans[0] == ans[1]) {
+            if (ans[1] == numbers[ans[1]]) {
+                ans[1] = ans[1] + 1;
+            } else {
+                ans[0] = ans[0] - 1;
             }
         }
 
