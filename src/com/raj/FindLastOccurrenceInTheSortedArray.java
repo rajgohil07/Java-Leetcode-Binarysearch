@@ -3,7 +3,7 @@ package com.raj;
 public class FindLastOccurrenceInTheSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {1, 3, 3, 3, 3, 3, 5, 6, 7, 8, 9, 10, 11};
+        int[] nums = {1, 3, 3, 3, 3, 3, 4, 5, 8, 9, 10, 11};
         int target = 3;
         int start = 0;
         int end = nums.length - 1;
@@ -12,7 +12,11 @@ public class FindLastOccurrenceInTheSortedArray {
         while (start != end) {
             int middle = start + (end - start) / 2;
             if (nums[middle] == target) {
-                start = middle + 1;
+                if (start == middle) {
+                    break;
+                } else {
+                    start = middle;
+                }
             } else if (nums[middle] > target) {
                 end = middle - 1;
             } else {

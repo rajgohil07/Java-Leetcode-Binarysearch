@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the first occurrence of the index.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the last occurrence of the index.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/FindLastOccurrenceInTheSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindLastOccurrenceInTheSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Created the single class to Take the user input with the min max array length validation and Sort the provided array using the bubble sort technique.">
-      <created>1677439785754</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1677439785754</updated>
     </task>
     <task id="LOCAL-00008" summary="Fixed: Unused import statement.">
       <created>1677439835068</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679464070641</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Have implemented the program to find the last occurrence of the index.">
+      <created>1679465648601</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1679465648601</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented the program to find the smallest letter which is greater than target." />
     <MESSAGE value="Added the comment to find the smallest letter which is greater than target." />
     <MESSAGE value="Fix the in-correct index for the single length array in the program to find the first and last position of element in the sorted array." />
     <MESSAGE value="Have implemented the program to search into infinite array using the chunk method." />
@@ -506,7 +506,8 @@
     <MESSAGE value="Have implemented the program to find the weakest row in the matrix by the given k." />
     <MESSAGE value="Fixed incorrect count in the program to find the weakest row in the matrix by the given k." />
     <MESSAGE value="Have implemented the program to find the first occurrence of the index." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the first occurrence of the index." />
+    <MESSAGE value="Have implemented the program to find the last occurrence of the index." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the last occurrence of the index." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
