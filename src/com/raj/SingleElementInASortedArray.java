@@ -31,11 +31,11 @@ public class SingleElementInASortedArray {
 
         // Logic.
         if (nums.length == 1) {
-            start = nums[0];
+            start = 0;
         } else if (nums[0] != nums[1]) {
-            start = nums[0];
+            start = 0;
         } else if (nums[nums.length - 1] != nums[nums.length - 2]) {
-            start = nums[nums.length - 2];
+            start = nums.length - 1;
         } else {
             while (start <= end) {
                 int middle = start + (end - start) / 2;
@@ -58,10 +58,11 @@ public class SingleElementInASortedArray {
                     }
                 }
             }
-
-            // Display the result.
-            System.out.println("Single element in the provided array is: " + nums[start]);
         }
 
+        // Display the result.
+        System.out.println("Single element in the provided array is: " + nums[start]);
     }
+
 }
+
