@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Use of enhanced for loop in the program to find the  Intersection of Two Arrays.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Program to find the duplicate number.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order">
-      <created>1677527788124</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1677527788124</updated>
     </task>
     <task id="LOCAL-00017" summary="Have added the tip in the notes.">
       <created>1678812722548</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679473870075</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Program to find the duplicate number.">
+      <created>1679487736328</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1679487736329</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented the program to find the peak index from multiple peaks." />
     <MESSAGE value="Implemented else part in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Fixed the incorrect result in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Display the result in the program to find the peak index from multiple peaks." />
@@ -506,7 +506,8 @@
     <MESSAGE value="Fixed the incorrect answer in the program to find the last occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the  Intersection of Two Arrays." />
     <MESSAGE value="Use of enhanced for loop in the program to find the  Intersection of Two Arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of enhanced for loop in the program to find the  Intersection of Two Arrays." />
+    <MESSAGE value="Program to find the duplicate number." />
+    <option name="LAST_COMMIT_MESSAGE" value="Program to find the duplicate number." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -550,6 +551,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/FindFirstOccurrenceInTheSortedArray.java</url>
           <line>11</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

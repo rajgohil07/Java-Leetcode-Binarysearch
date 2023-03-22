@@ -24,21 +24,26 @@ All the integers in nums appear only once except for precisely one integer which
  */
 package com.raj;
 
+import java.util.Arrays;
+
 public class FindTheDuplicateNumber {
     public static void main(String[] args) {
-        int[] nums = {1, 3, 4, 2, 2};
+        // Initialization.
+        int[] nums = {2, 2, 2, 2, 2};
         int ans = 0;
 
-        outerLoop:
+        // Sort the array.
+        Arrays.sort(nums);
+
+        // Logic.
         for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j]) {
-                    ans = nums[i];
-                    break outerLoop;
-                }
+            if (nums[i] == nums[i + 1]) {
+                ans = nums[i];
+                break;
             }
         }
 
-        System.out.println("ans = " + ans);
+        // Display the result.
+        System.out.println("Duplicate is " + ans + " in the array.");
     }
 }
