@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find two sum in the sorted array.">
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Handled the situation when same value is being used twice the program to find two sum in the sorted array.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Corrected the invalid logic the program to find the ceilling number.">
-      <created>1678815519821</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1678815519821</updated>
     </task>
     <task id="LOCAL-00024" summary="Have added the program to find the floor number with provided target from the array.">
       <created>1678818642742</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679512463762</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Handled the situation when same value is being used twice the program to find two sum in the sorted array.">
+      <created>1679513284932</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1679513284932</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Handled the situation if the peak array is in last element in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
     <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach." />
@@ -506,7 +506,8 @@
     <MESSAGE value="Have assign the index instead of value in the program to find the single element in the sorted array." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Have implemented the program to find two sum in the sorted array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find two sum in the sorted array." />
+    <MESSAGE value="Handled the situation when same value is being used twice the program to find two sum in the sorted array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Handled the situation when same value is being used twice the program to find two sum in the sorted array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,6 +556,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java</url>
           <line>38</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

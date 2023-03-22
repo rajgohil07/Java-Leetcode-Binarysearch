@@ -54,7 +54,7 @@ public class TwoSumII_InputArrayIsSorted {
 
         // Check if both index are same or not.
         if (ans[0] == ans[1]) {
-            if (ans[1] == numbers[ans[1]]) {
+            if (numbers[ans[1] - 1] == numbers[ans[1]]) {
                 ans[1] = ans[1] + 1;
             } else {
                 ans[0] = ans[0] - 1;
