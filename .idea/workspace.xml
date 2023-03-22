@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Program to find the duplicate number.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/SingleElementInASortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindTheDuplicateNumber">
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstAndLastPositionOfElementInSortedArray" />
-      <module name="Java-Binary-Search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingleElementInASortedArray">
     <configuration name="FindFirstOccurrenceInTheSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstOccurrenceInTheSortedArray" />
       <module name="Java-Binary-Search" />
@@ -105,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleElementInASortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.SingleElementInASortedArray" />
+      <module name="Java-Binary-Search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleElementInASortedArray" />
         <item itemvalue="Application.FindTheDuplicateNumber" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.FindLastOccurrenceInTheSortedArray" />
         <item itemvalue="Application.FindFirstOccurrenceInTheSortedArray" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Have added the tip in the notes.">
-      <created>1678812722548</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1678812722548</updated>
     </task>
     <task id="LOCAL-00018" summary="Have added defination of ceiling number.">
       <created>1678812879494</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679487736329</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Program to find the duplicate number.">
+      <created>1679488361211</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679488361211</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,6 +556,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/FindTheDuplicateNumber.java</url>
           <line>38</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/SingleElementInASortedArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
