@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have assign the index instead of value in the program to find the single element in the sorted array." />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="workspace.xml file changes.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,20 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SingleElementInASortedArray">
-    <configuration name="FindFirstOccurrenceInTheSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstOccurrenceInTheSortedArray" />
-      <module name="Java-Binary-Search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSumII_InputArrayIsSorted">
     <configuration name="FindLastOccurrenceInTheSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindLastOccurrenceInTheSortedArray" />
       <module name="Java-Binary-Search" />
@@ -102,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSumII_InputArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.TwoSumII_InputArrayIsSorted" />
+      <module name="Java-Binary-Search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSumII_InputArrayIsSorted" />
         <item itemvalue="Application.SingleElementInASortedArray" />
         <item itemvalue="Application.FindTheDuplicateNumber" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.FindLastOccurrenceInTheSortedArray" />
-        <item itemvalue="Application.FindFirstOccurrenceInTheSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00021" summary="File name changes.">
-      <created>1678814049274</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1678814049274</updated>
     </task>
     <task id="LOCAL-00022" summary="Have implemented the program to find the ceilling number.">
       <created>1678815376731</created>
@@ -464,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679509893265</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="workspace.xml file changes.">
+      <created>1679511197258</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1679511197258</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +484,6 @@
     <MESSAGE value="Fixed infinite while loop issue in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handled the situation if the peak array is in last element in the program to find the peak index from multiple peaks." />
     <MESSAGE value="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array." />
-    <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Removed the unwanted commented code to find the target in the ascending sorted array using the binary approach." />
@@ -504,7 +505,8 @@
     <MESSAGE value="Have implemented the program to find the single element in the sorted array." />
     <MESSAGE value="Have added the comments in the program to find the single element in the sorted array." />
     <MESSAGE value="Have assign the index instead of value in the program to find the single element in the sorted array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have assign the index instead of value in the program to find the single element in the sorted array." />
+    <MESSAGE value="workspace.xml file changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
