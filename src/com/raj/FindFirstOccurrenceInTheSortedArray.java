@@ -9,7 +9,7 @@ public class FindFirstOccurrenceInTheSortedArray {
         int end = nums.length - 1;
 
         // Binary search logic.
-        while (start != end) {
+        while (start != end && end > -1) {
             int middle = start + (end - start) / 2;
             if (nums[middle] == target) {
                 end = middle;
@@ -20,7 +20,7 @@ public class FindFirstOccurrenceInTheSortedArray {
             }
         }
 
-        if (nums[end] != target) {
+        if (end > -1 && nums[end] != target) {
             end = -1;
         }
 
