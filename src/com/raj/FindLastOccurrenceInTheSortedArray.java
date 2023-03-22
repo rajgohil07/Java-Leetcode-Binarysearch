@@ -13,6 +13,9 @@ public class FindLastOccurrenceInTheSortedArray {
             int middle = start + (end - start) / 2;
             if (nums[middle] == target) {
                 if (start == middle) {
+                    if (nums[end] == target) {
+                        start = end;
+                    }
                     break;
                 } else {
                     start = middle;

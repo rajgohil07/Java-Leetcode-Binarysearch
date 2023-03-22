@@ -8,7 +8,7 @@
       <change afterPath="$PROJECT_DIR$/src/com/raj/temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/FindFirstOccurrenceInTheSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindFirstOccurrenceInTheSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/FindLastOccurrenceInTheSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindLastOccurrenceInTheSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindFirstOccurrenceInTheSortedArray">
+  <component name="RunManager" selected="Application.FindLastOccurrenceInTheSortedArray">
     <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstAndLastPositionOfElementInSortedArray" />
       <module name="Java-Binary-Search" />
@@ -109,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLastOccurrenceInTheSortedArray" />
         <item itemvalue="Application.FindFirstOccurrenceInTheSortedArray" />
         <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
-        <item itemvalue="Application.FindLastOccurrenceInTheSortedArray" />
         <item itemvalue="Application.TheKWeakestRowsInMatrix" />
         <item itemvalue="Application.LongestSubsequenceWithLimitedSum" />
       </list>
@@ -125,20 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added the code for the binary search.">
-      <created>1677525317055</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1677525317055</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Removed the unused import statements.">
-      <created>1677525350284</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1677525350284</updated>
     </task>
     <task id="LOCAL-00011" summary="Fixed: Invalid end pointer value at the initialization.">
       <created>1677525994879</created>
@@ -469,7 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679466394542</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Fixed the infinite issue in the program to find the first occurrence of the index.">
+      <created>1679467803762</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679467803763</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fixed the infinite issue in the program to find the last occurrence of the index.">
+      <created>1679468462866</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679468462866</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix the in-correct index for the single length array in the program to find the first and last position of element in the sorted array." />
     <MESSAGE value="Have implemented the program to search into infinite array using the chunk method." />
     <MESSAGE value="Have implemented the program to find the mountain index of the given array using the binary search approach." />
     <MESSAGE value="Handled the situation when middle index is 0 the program to find the mountain index of the given array using the binary search approach." />
@@ -508,6 +507,7 @@
     <MESSAGE value="Fixed incorrect count in the program to find the weakest row in the matrix by the given k." />
     <MESSAGE value="Have implemented the program to find the first occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the last occurrence of the index." />
+    <MESSAGE value="Fixed the infinite issue in the program to find the first occurrence of the index." />
     <MESSAGE value="Fixed the infinite issue in the program to find the last occurrence of the index." />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed the infinite issue in the program to find the last occurrence of the index." />
   </component>
@@ -551,7 +551,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/FindFirstOccurrenceInTheSortedArray.java</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
