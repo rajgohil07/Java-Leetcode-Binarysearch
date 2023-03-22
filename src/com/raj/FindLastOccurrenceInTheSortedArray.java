@@ -3,13 +3,13 @@ package com.raj;
 public class FindLastOccurrenceInTheSortedArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {1, 3, 3, 3, 3, 3, 4, 5, 8, 9, 10, 11};
+        int[] nums = {1, 3, 3, 3, 3, 3, 5, 6, 7, 8, 9, 10, 11};
         int target = 3;
         int start = 0;
         int end = nums.length - 1;
 
         // Binary search logic.
-        while (start != end) {
+        while (start != end && end > -1) {
             int middle = start + (end - start) / 2;
             if (nums[middle] == target) {
                 if (start == middle) {
