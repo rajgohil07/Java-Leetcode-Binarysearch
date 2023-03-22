@@ -123,13 +123,6 @@
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
     </task>
-    <task id="LOCAL-00015" summary="Added solution to find whether the array is sorted in a descending order or ascending order">
-      <created>1677527496319</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1677527496319</updated>
-    </task>
     <task id="LOCAL-00016" summary="Fix grammar issue: Added solution to find whether the array is sorted in a descending order or ascending order">
       <created>1677527788124</created>
       <option name="number" value="00016" />
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679473385273</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Use of enhanced for loop in the program to find the  Intersection of Two Arrays.">
+      <created>1679473870075</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473870075</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

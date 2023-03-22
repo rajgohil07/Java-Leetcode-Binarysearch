@@ -19,7 +19,6 @@ Constraints:
  */
 package com.raj;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -27,9 +26,13 @@ import java.util.Set;
 public class IntersectionOfTwoArrays {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums1 = {1, 2, 2, 1};
-        int[] nums2 = {2, 2};
-        ArrayList<Integer> ans = new ArrayList<>();
+        int[] nums1 = {4, 9, 5};
+        int[] nums2 = {9, 4, 9, 8, 4};
+        Set<Integer> ans = new LinkedHashSet<>();
+
+        // Sort the both array.
+        bubbleSorting(nums1);
+        bubbleSorting(nums2);
 
         // Logic.
         if (nums1.length > nums2.length) {
@@ -48,19 +51,11 @@ public class IntersectionOfTwoArrays {
             }
         }
 
-        // Remove the duplicates from the array.
-        Set<Integer> set = new LinkedHashSet<>(ans);
-
-        // Clear the ans array list.
-        ans.clear();
-
-        // Add the set list to the ans array list.
-        ans.addAll(set);
-
         int[] finalAnswer = new int[ans.size()];
+        int i=0;
 
-        for (int i = 0; i < finalAnswer.length; i++) {
-            finalAnswer[i] = ans.get(i);
+        for (int s:ans) {
+            finalAnswer[i++] = s;
         }
 
         // Display the result.
@@ -84,5 +79,46 @@ public class IntersectionOfTwoArrays {
             }
         }
         return index;
+    }
+
+    // Sort the provided array using the bubble sort technique.
+    private static void bubbleSorting(int[] arr) {
+
+        // Getting the array length.
+        int arrLength = arr.length;
+
+        for (int loopCounter = 0; loopCounter < arrLength; loopCounter++) {
+
+            // Taking the first and second index.
+            int previousIndex = 0;
+            int index = 1;
+
+            // Taking the boolean to break the for loop for the optimization.
+            boolean isModificationMade = false;
+
+            // While loop till current index less than the array length.
+            while (index < arrLength) {
+
+                // Get the values of the previous and current index.
+                int valueAtPreviousIndex = arr[previousIndex];
+                int valueAtIndex = arr[index];
+
+                // If the previous index value is greater than current index value then flip thr values.
+                if (valueAtPreviousIndex > valueAtIndex) {
+                    arr[index] = valueAtPreviousIndex;
+                    arr[previousIndex] = valueAtIndex;
+                    isModificationMade = true;
+                }
+
+                // Increment the previous and current index values by one.
+                index++;
+                previousIndex++;
+            }
+
+            // If there were no modifications where made then simply break the outer for loop.
+            if (!isModificationMade) {
+                break;
+            }
+        }
     }
 }
