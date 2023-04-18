@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have added the program to find the insert position in the sorted array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindFirstOccurrenceInArrayShortMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/GuessNumberHigherOrLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/GuessNumberHigherOrLower.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have added the program to find the first occurrence of target in the sorted array.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/FindLastOccurrenceInArrayShortMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindFirstOccurrenceInArrayShortMethod">
+  <component name="RunManager" selected="Application.FindLastOccurrenceInArrayShortMethod">
     <configuration name="FindFirstOccurrenceInArrayShortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstOccurrenceInArrayShortMethod" />
       <module name="Java-Binary-Search" />
@@ -54,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindTheDuplicateNumber" />
+    <configuration name="FindLastOccurrenceInArrayShortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.FindLastOccurrenceInArrayShortMethod" />
       <module name="Java-Binary-Search" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLastOccurrenceInArrayShortMethod" />
         <item itemvalue="Application.FindFirstOccurrenceInArrayShortMethod" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.TwoSumII_InputArrayIsSorted" />
         <item itemvalue="Application.SingleElementInASortedArray" />
-        <item itemvalue="Application.FindTheDuplicateNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00025" summary="workspace.xml file changes.">
-      <created>1678818695702</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678818695702</updated>
     </task>
     <task id="LOCAL-00026" summary="Added the definition of floor numbers.">
       <created>1678818851485</created>
@@ -468,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681237551869</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Have added the program to find the first occurrence of target in the sorted array.">
+      <created>1681842338892</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1681842338893</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated the input value to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Fixed the issue of time limit exceeded to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Removed the unwanted commented code to find the target in the ascending sorted array using the binary approach." />
     <MESSAGE value="Have made changes to find the target in the ascending sorted array using the binary approach." />
@@ -508,7 +505,8 @@
     <MESSAGE value="Have implemented the program to find two sum in the sorted array." />
     <MESSAGE value="Handled the situation when same value is being used twice the program to find two sum in the sorted array." />
     <MESSAGE value="Have added the program to find the insert position in the sorted array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have added the program to find the insert position in the sorted array." />
+    <MESSAGE value="Have added the program to find the first occurrence of target in the sorted array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have added the program to find the first occurrence of target in the sorted array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
