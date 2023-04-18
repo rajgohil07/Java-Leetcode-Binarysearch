@@ -43,25 +43,27 @@ package com.raj;
  * int guess(int num);
  */
 
-public class GuessNumberHigherOrLower extends GuessGame {
-    public int guessNumber(int n) {
-        // Initialization.
-        int start = 1;
-        int ans = 0;
 
-        // Logic.
-        while (start <= n) {
-            int middle = start + (n - start) / 2;
-            int result = guess(middle);
-            if (result == 0) {
-                ans = middle;
-                break;
-            } else if (result == -1) {
-                n = middle - 1;
-            } else {
-                start = middle + 1;
-            }
-        }
-        return ans;
-    }
-}
+// -------------------| Note: Please comment out the below code to make it work. |======================
+// public class GuessNumberHigherOrLower extends GuessGame {
+//    public int guessNumber(int n) {
+//        // Initialization.
+//        int start = 1;
+//        int ans = 0;
+//
+//        // Logic.
+//        while (start <= n) {
+//            int middle = start + (n - start) / 2;
+//            int result = guess(middle);
+//            if (result == 0) {
+//                ans = middle;
+//                break;
+//            } else if (result == -1) {
+//                n = middle - 1;
+//            } else {
+//                start = middle + 1;
+//            }
+//        }
+//        return ans;
+//    }
+//}
