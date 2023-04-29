@@ -31,10 +31,10 @@ public class Sqrt {
         int end = x;
 
         // Logic.
-        if (x != 0) {
+        if (end != 1) {
             while (start <= end) {
                 int middle = start + (end - start) / 2;
-                if (middle == x / middle) {
+                if (middle == 0 || middle == x / middle) {
                     end = middle;
                     break;
                 } else if (middle > x / middle) {
