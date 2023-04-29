@@ -39,8 +39,10 @@ public class CheckIfNAndItsDoubleExist {
         Arrays.sort(arr);
         while (!ans && counter < arr.length) {
             value = arr[counter];
-            // Perform the binary search action to find the doubles of its value.
-            ans = findDoubleExist(arr, 2 * arr[counter]);
+            if (value != 0) {
+                // Perform the binary search action to find the doubles of its value.
+                ans = findDoubleExist(arr, 2 * arr[counter]);
+            }
             counter++;
         }
 
@@ -49,7 +51,7 @@ public class CheckIfNAndItsDoubleExist {
             System.out.println("Yes, " + (value * 2) + " is the double of the value " + value + " in the provided array.");
             System.out.println("Array: " + Arrays.toString(arr));
         } else {
-            System.out.println("Sorry there is no value exist which is double of its value in the provided array.");
+            System.out.println("Sorry, there is no value exist which is double of its value in the provided array.");
             System.out.println("Array: " + Arrays.toString(arr));
         }
     }
@@ -72,6 +74,7 @@ public class CheckIfNAndItsDoubleExist {
                 start = middle + 1;
             }
         }
+
         return isFound;
     }
 }

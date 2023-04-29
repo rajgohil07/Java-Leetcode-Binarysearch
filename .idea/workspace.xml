@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fixed the issue when provided value of x is 1: Have implemented the program to find the nearest integer value of square root.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/CheckIfNAndItsDoubleExist.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Have implemented the program to find the value which it's double exist in the array.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/CheckIfNAndItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/CheckIfNAndItsDoubleExist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Implemented the program to find the peak index from multiple peaks.">
-      <created>1679216032446</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1679216032446</updated>
     </task>
     <task id="LOCAL-00034" summary="Implemented else part in the program to find the peak index from multiple peaks.">
       <created>1679216064304</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682775322475</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Have implemented the program to find the value which it's double exist in the array.">
+      <created>1682776395176</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1682776395176</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find the weakest row in the matrix by the given k." />
     <MESSAGE value="Fixed incorrect count in the program to find the weakest row in the matrix by the given k." />
     <MESSAGE value="Have implemented the program to find the first occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the last occurrence of the index." />
@@ -506,7 +505,8 @@
     <MESSAGE value="Have implemented the program to find the nearest integer value of square root." />
     <MESSAGE value="Fixed the issue when provided value of x is 0. Have implemented the program to find the nearest integer value of square root." />
     <MESSAGE value="Fixed the issue when provided value of x is 1: Have implemented the program to find the nearest integer value of square root." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue when provided value of x is 1: Have implemented the program to find the nearest integer value of square root." />
+    <MESSAGE value="Have implemented the program to find the value which it's double exist in the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the value which it's double exist in the array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
