@@ -26,24 +26,26 @@ package com.raj;
 public class Sqrt {
     public static void main(String[] args) {
         // Initialization.
-        int x = 4;
+        int x = 8;
         int start = 0;
         int end = x;
 
         // Logic.
-        while (start <= end) {
-            int middle = start + (end - start) / 2;
-            if (middle == x / middle) {
-                end = middle;
-                break;
-            } else if (middle > x / middle) {
-                end = middle - 1;
-            } else {
-                start = middle + 1;
+        if (x != 0) {
+            while (start <= end) {
+                int middle = start + (end - start) / 2;
+                if (middle == x / middle) {
+                    end = middle;
+                    break;
+                } else if (middle > x / middle) {
+                    end = middle - 1;
+                } else {
+                    start = middle + 1;
+                }
             }
         }
 
         // Display the result.
-        System.out.println("The nearest integer value of square root: " + x + " is " + end+".");
+        System.out.println("The nearest integer value of square root: " + x + " is " + end + ".");
     }
 }
