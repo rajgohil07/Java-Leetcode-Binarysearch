@@ -39,9 +39,10 @@ public class CheckIfNAndItsDoubleExist {
         Arrays.sort(arr);
         while (!ans && counter < arr.length) {
             value = arr[counter];
-            if (value != 0) {
-                // Perform the binary search action to find the doubles of its value.
-                ans = findDoubleExist(arr, 2 * arr[counter]);
+            // Perform the binary search action to find the doubles of its value.
+            int index = findDoubleExist(arr, 2 * arr[counter]);
+            if (index != -1 && index != counter) {
+                ans = true;
             }
             counter++;
         }
@@ -57,16 +58,16 @@ public class CheckIfNAndItsDoubleExist {
     }
 
     // Function to perform the binary search action to find the doubles of its value.
-    private static boolean findDoubleExist(int[] arr, int target) {
+    private static int findDoubleExist(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
-        boolean isFound = false;
+        int ansIndex = -1;
 
         while (start <= end) {
             int middle = start + (end - start) / 2;
             int middleValue = arr[middle];
             if (middleValue == target) {
-                isFound = true;
+                ansIndex = middle;
                 break;
             } else if (middleValue > target) {
                 end = middle - 1;
@@ -75,6 +76,6 @@ public class CheckIfNAndItsDoubleExist {
             }
         }
 
-        return isFound;
+        return ansIndex;
     }
 }
