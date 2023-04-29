@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="[Binary search] Have added the program to find the target element in the provided array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/ValidPerfectSquare.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Find the valid perfect square without using the inbuilt sqrt method.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/Sqrt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ValidPerfectSquare">
+  <component name="RunManager" selected="Application.Sqrt">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.BinarySearch" />
       <module name="Java-Binary-Search" />
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.SearchInsertPosition" />
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.Sqrt" />
       <module name="Java-Binary-Search" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.ValidPerfectSquare" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.FindLastOccurrenceInArrayShortMethod" />
         <item itemvalue="Application.FindFirstOccurrenceInArrayShortMethod" />
-        <item itemvalue="Application.SearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Fix the in-correct index for the single length array in the program to find the first and last position of element in the sorted array.">
-      <created>1678894359853</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1678894359853</updated>
     </task>
     <task id="LOCAL-00030" summary="Have implemented the program to search into infinite array using the chunk method.">
       <created>1679045938128</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682510113168</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Find the valid perfect square without using the inbuilt sqrt method.">
+      <created>1682512028191</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1682512028191</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find the negative value counts from the mxn matrix." />
     <MESSAGE value="Have implemented the program to find the maximum number from the positive and negative numbers." />
     <MESSAGE value="Have implemented the program to find the Longest Subsequence With Limited Sum." />
     <MESSAGE value="[WIP] Have implemented the program to find the weakest row in the matrix by the given k." />
@@ -507,7 +506,8 @@
     <MESSAGE value="Have added the program to find the last occurrence of target in the sorted array." />
     <MESSAGE value="workspace.xml changes." />
     <MESSAGE value="[Binary search] Have added the program to find the target element in the provided array." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Binary search] Have added the program to find the target element in the provided array." />
+    <MESSAGE value="Find the valid perfect square without using the inbuilt sqrt method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Find the valid perfect square without using the inbuilt sqrt method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,11 +556,6 @@
           <url>file://$PROJECT_DIR$/src/com/raj/TwoSumII_InputArrayIsSorted.java</url>
           <line>59</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/raj/ValidPerfectSquare.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
