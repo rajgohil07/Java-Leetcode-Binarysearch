@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="[Have fixed the index out of the bound issue]: Have implemented the program to find The Target Indices After Sorting Array.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/FindTargetIndicesAfterSortingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,27 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Display the result in the program to find the peak index from multiple peaks.">
-      <created>1679216305694</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1679216305694</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Fixed infinite while loop issue in the program to find the peak index from multiple peaks.">
-      <created>1679217300663</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1679217300663</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Handled the situation if the peak array is in last element in the program to find the peak index from multiple peaks.">
-      <created>1679218058014</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1679218058014</updated>
     </task>
     <task id="LOCAL-00039" summary="Handle the situation when the array element is only one in the Program to find the element in the ascending rotated array.">
       <created>1679296783039</created>
@@ -467,7 +446,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682777142111</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Have implemented the program to find The Target Indices After Sorting Array.">
+      <created>1682844892395</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1682844892395</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Added the comment: Have implemented the program to find The Target Indices After Sorting Array.">
+      <created>1682844954229</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1682844954229</updated>
+    </task>
+    <task id="LOCAL-00087" summary="[Have fixed the index out of the bound issue]: Have implemented the program to find The Target Indices After Sorting Array.">
+      <created>1682845115711</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1682845115711</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,9 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find the last occurrence of the index." />
-    <MESSAGE value="Fixed the infinite issue in the program to find the first occurrence of the index." />
-    <MESSAGE value="Fixed the infinite issue in the program to find the last occurrence of the index." />
     <MESSAGE value="Fixed the incorrect answer in the program to find the last occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the  Intersection of Two Arrays." />
     <MESSAGE value="Use of enhanced for loop in the program to find the  Intersection of Two Arrays." />
@@ -507,7 +504,10 @@
     <MESSAGE value="Have implemented the program to find the value which it's double exist in the array." />
     <MESSAGE value="Fix the issue when array element value is 0. Have implemented the program to find the value which it's double exist in the array." />
     <MESSAGE value="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array." />
+    <MESSAGE value="Have implemented the program to find The Target Indices After Sorting Array." />
+    <MESSAGE value="Added the comment: Have implemented the program to find The Target Indices After Sorting Array." />
+    <MESSAGE value="[Have fixed the index out of the bound issue]: Have implemented the program to find The Target Indices After Sorting Array." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Have fixed the index out of the bound issue]: Have implemented the program to find The Target Indices After Sorting Array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

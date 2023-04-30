@@ -39,8 +39,8 @@ import java.util.List;
 public class FindTargetIndicesAfterSortingArray {
     public static void main(String[] args) {
         // Initialization.
-        int[] nums = {1, 2, 5, 2, 3};
-        int target = 3;
+        int[] nums = {1};
+        int target = 2;
         int[] indices = {-1, -1};
         List<Integer> ans = new ArrayList<>();
 
@@ -50,7 +50,7 @@ public class FindTargetIndicesAfterSortingArray {
         // Get the left most target element via the binary search.
         indices[0] = binarySearch(0, nums.length - 1, target, nums, true);
         if (indices[0] != -1) {
-            indices[1] = binarySearch(indices[0] , nums.length - 1, target, nums, false);
+            indices[1] = binarySearch(indices[0] + 1, nums.length - 1, target, nums, false);
             if (indices[1] != -1) {
                 for (int i = indices[0]; i <= indices[1]; i++) {
                     ans.add(i);
@@ -66,7 +66,7 @@ public class FindTargetIndicesAfterSortingArray {
 
     // Binary search program to find the target with provided start and end indexes.
     private static int binarySearch(int start, int end, int target, int[] arr, boolean searchInLeft) {
-        int ans;
+        int ans = -1;
         while (start <= end) {
             int middle = start + (end - start) / 2;
             int middleValue = arr[middle];
@@ -82,9 +82,9 @@ public class FindTargetIndicesAfterSortingArray {
                 start = middle + 1;
             }
         }
-        if (searchInLeft) {
+        if (searchInLeft && start < arr.length) {
             ans = start;
-        } else {
+        } else if (end < arr.length) {
             ans = end;
         }
         if (arr[ans] != target) {
