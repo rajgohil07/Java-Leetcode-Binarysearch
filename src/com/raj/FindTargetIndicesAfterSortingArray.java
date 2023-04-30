@@ -50,7 +50,7 @@ public class FindTargetIndicesAfterSortingArray {
         // Get the left most target element via the binary search.
         indices[0] = binarySearch(0, nums.length - 1, target, nums, true);
         if (indices[0] != -1) {
-            indices[1] = binarySearch(indices[0] + 1, nums.length - 1, target, nums, false);
+            indices[1] = binarySearch(indices[0] , nums.length - 1, target, nums, false);
             if (indices[1] != -1) {
                 for (int i = indices[0]; i <= indices[1]; i++) {
                     ans.add(i);
