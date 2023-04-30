@@ -64,6 +64,7 @@ public class FindTargetIndicesAfterSortingArray {
         System.out.println("The Target Indices After Sorting Array is: " + ans + " where the target value was " + target + ".");
     }
 
+    // Binary search program to find the target with provided start and end indexes.
     private static int binarySearch(int start, int end, int target, int[] arr, boolean searchInLeft) {
         int ans;
         while (start <= end) {
