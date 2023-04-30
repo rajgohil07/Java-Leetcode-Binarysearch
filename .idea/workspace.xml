@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fix the issue when array element value is 0. Have implemented the program to find the value which it's double exist in the array.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/CheckIfNAndItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/CheckIfNAndItsDoubleExist.java" afterDir="false" />
+    <list default="true" id="18dcf0d6-7602-4131-a8a2-b7dcd512ac04" name="Changes" comment="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/FindTargetIndicesAfterSortingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/JAVA Practices/Multi-Dimension-Array&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheckIfNAndItsDoubleExist">
+  <component name="RunManager" selected="Application.FindTargetIndicesAfterSortingArray">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.BinarySearch" />
       <module name="Java-Binary-Search" />
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLastOccurrenceInArrayShortMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindLastOccurrenceInArrayShortMethod" />
+    <configuration name="FindTargetIndicesAfterSortingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.FindTargetIndicesAfterSortingArray" />
       <module name="Java-Binary-Search" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTargetIndicesAfterSortingArray" />
         <item itemvalue="Application.CheckIfNAndItsDoubleExist" />
         <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.ValidPerfectSquare" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.FindLastOccurrenceInArrayShortMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -122,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677434734272</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Fixed the incorrect result in the program to find the peak index from multiple peaks.">
-      <created>1679216195840</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1679216195840</updated>
     </task>
     <task id="LOCAL-00036" summary="Display the result in the program to find the peak index from multiple peaks.">
       <created>1679216305694</created>
@@ -466,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682776734040</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array.">
+      <created>1682777142111</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1682777142111</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find the first occurrence of the index." />
     <MESSAGE value="Have implemented the program to find the last occurrence of the index." />
     <MESSAGE value="Fixed the infinite issue in the program to find the first occurrence of the index." />
     <MESSAGE value="Fixed the infinite issue in the program to find the last occurrence of the index." />
@@ -506,7 +506,8 @@
     <MESSAGE value="Fixed the issue when provided value of x is 1: Have implemented the program to find the nearest integer value of square root." />
     <MESSAGE value="Have implemented the program to find the value which it's double exist in the array." />
     <MESSAGE value="Fix the issue when array element value is 0. Have implemented the program to find the value which it's double exist in the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the issue when array element value is 0. Have implemented the program to find the value which it's double exist in the array." />
+    <MESSAGE value="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the issue when array contains the two 0. Have implemented the program to find the value which it's double exist in the array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
