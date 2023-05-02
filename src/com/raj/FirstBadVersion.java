@@ -28,31 +28,21 @@ package com.raj;
 
 public class FirstBadVersion {
     public static void main(String[] args) {
-
         // Initialization.
         int n = 5;
-        int ans = 0;
+        int start = 0;
 
         // Logic.
-        if (!isBadVersion(0)) {
-            int start = 1;
-            int end = n;
-            while (start <= end) {
-                int middle = start + (end - start) / 2;
-                if (!isBadVersion(middle)) {
-                    start = middle + 1;
-                } else {
-                    if (!isBadVersion(middle - 1)) {
-                        ans = middle;
-                        break;
-                    } else {
-                        end = middle - 1;
-                    }
-                }
+        while (start <= n) {
+            int middle = start + (n - start) / 2;
+            if (!isBadVersion(middle)) {
+                start = middle + 1;
+            } else {
+                n = middle - 1;
             }
         }
 
         // Display the result.
-        System.out.println("The first bad version of the product is: " + ans);
+        System.out.println("The first bad version of the product is: " + start);
     }
 }
